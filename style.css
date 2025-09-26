@@ -1,0 +1,45 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+body {
+    background-color:azure ;
+   
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+div {
+    background-color:silver;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 40px;
+    margin: 10;
+    
+    
+    
+}
+
+input {
+    padding: 2px;
+    margin: 0px;
+    border-radius: 2px;
+    background: rgb(160, 160, 165);
+
+}
+
+label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    
+}
+
+
