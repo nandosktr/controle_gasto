@@ -9,52 +9,54 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Calculadora de Gastos</title>
-    
+    style>
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
 
     <h1>Calculadora de Gastos</h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-4">
+    <div class="container">
+        <div class="col-xs-2">
             <label for="carro">Carro:</label>
             <input class="form-control" type="number" id="carro" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="aluguel">Aluguel:</label>
             <input class="form-control" type="number" id="aluguel" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="seguro">Seguro:</label>
             <input  class="form-control" type="number" id="seguro" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="gasolina">Gasolina:</label>
             <input class="form-control" type="number" id="gasolina" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="mercado">Mercado:</label>
             <input class="form-control" type="number" id="mercado" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="agua">Água:</label>
             <input class="form-control" type="number" id="agua" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="luz">Luz:</label>
             <input class="form-control" type="number" id="luz" placeholder="0"><br>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-2">
             <label for="internet">Internet:</label>
             <input class="form-control" type="number" id="internet" placeholder="0"><br>
         </div>
-        <div class="">
+        <div class="class="col-xs-2">
             <button onclick="calcularGastos()">Calcular Gastos</button>
 
             <p id="resultado">Total de Gastos: R$ 0,00</p>
         </div>
-      </div>
     </div>
 
     <script>
